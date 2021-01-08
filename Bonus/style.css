@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#app {
+    display: flex;
+    flex-wrap: wrap;
+    width: 210px;
+}
+
+.quadrati {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    border: 1px solid black;
+}
+
+.green {
+    background: green;
+}
+
+.yellow {
+    background: yellow;
+}
